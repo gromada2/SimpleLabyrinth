@@ -1,0 +1,26 @@
+﻿Build started 10.04.2018 13:14:37.
+     1>Project "D:\work\c++\myprojects\SimpleLabyrinth\SimpleLabyrinth\SimpleLabyrinth.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\SimpleLabyrinth.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\SimpleLabyrinth.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\visual studio\g\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt map.cpp SimpleLabyrinth.cpp
+         SimpleLabyrinth.cpp
+         map.cpp
+         Generating Code...
+       Link:
+         D:\visual studio\g\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\c++\myprojects\SimpleLabyrinth\Debug\SimpleLabyrinth.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SimpleLabyrinth.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\c++\myprojects\SimpleLabyrinth\Debug\SimpleLabyrinth.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\c++\myprojects\SimpleLabyrinth\Debug\SimpleLabyrinth.lib" /MACHINE:X86 Debug\map.obj
+         Debug\SimpleLabyrinth.obj
+     1>map.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         SimpleLabyrinth.vcxproj -> D:\work\c++\myprojects\SimpleLabyrinth\Debug\SimpleLabyrinth.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\work\c++\myprojects\SimpleLabyrinth\Debug\SimpleLabyrinth.exe;#1" /manifest Debug\SimpleLabyrinth.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\SimpleLabyrinth.unsuccessfulbuild".
+         Touching "Debug\SimpleLabyrinth.lastbuildstate".
+     1>Done Building Project "D:\work\c++\myprojects\SimpleLabyrinth\SimpleLabyrinth\SimpleLabyrinth.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.79
